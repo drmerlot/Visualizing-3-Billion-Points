@@ -1,4 +1,3 @@
----
 # Visualizing 3 Billion Points
 Using Dask and Datashader to Visualize a 150 gigabyte, 3 Billion Point Dataset, on a laptop!
 
@@ -22,4 +21,3 @@ Dask and Datashader
 The result was a semi-success. I was able to get 3 billion rendered points on a single figure with the histogram equallization transfer function included in datashader. It is cool looking, though its usefullness can be argued. Later in this analysis I will use more of what dask and datashader have to offer, probably on a bigger machine or cluster, and really get into some deeper analysis. I did not not include any example data as of yet, but I though this might be useful to those of you trying to solve similar problems, check out the process by launching the ipython notebook: 
 
 [launch the ipython notebook](https://github.com/andrewsommerlot/Visualizing-3-Billion-Points/blob/master/static_weave_plot.ipynb)
---- 
